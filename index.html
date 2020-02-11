@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>My Portfolio Site</title>
-    <link rel="stylesheet" href="styles/index.css">
-</head>
-<body>
-    <h1 class="title">Caitlin's Portfolio Site</h1>
-    <ul>
-            <li class="links">
-                    <a href="index.html">Home</a> </li>
-            <li class="links">
-                    <a href="about.html">About Me</a> </li>
-            <li class="links">
-                    <a href="projects.html">Projects</a> </li>
-    </ul>
-    <p>Welcome to my portfolio. Here I will show you a little bit about my coding journey, and demonstrate some of my work.</p>
-    <h2>Past Experience</h2>
-    <ul>
-        <li>Northcoders student December 2019 - March 2020</li>
-    </ul>
+    <link rel="stylesheet" href="styles/index.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
     
-</body>
+      <ul class="menu">
+        <li><a href="index.html" class="home">home</a></li>
+        <li><a href="about.html" class="about">about</a></li>
+        <li><a href="projects.html" class="projects">projects</a></li>
+        <li><a href="https://github.com/Caitlin-B/" target="_blank" class="github">github</a></li>
+        <div class="menuUnderline"></div>
+      </ul>
+    
 
+    <h1 class="title">Caitlin's Portfolio Site</h1>
+    <!-- <nav class="links">
+        <a href="index.html">Home</a> 
+        <a href="about.html">About Me</a> 
+        <a href="projects.html">Projects</a> 
+    </nav> -->
+    <p>
+      Welcome to my portfolio. Here I will show you a little bit about my coding
+      journey, and demonstrate some of my work.
+    </p>
+    <h2>Past Experience</h2>
+    <ul class="experience">
+      <li>Northcoders student December 2019 - March 2020</li>
+    </ul>
+  </body>
 </html>
